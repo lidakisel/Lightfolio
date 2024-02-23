@@ -136,3 +136,53 @@ padding-top: 128px; padding-bottom: 128px;
     letter-spacing: 0.14px;
     text-decoration: none;
 }
+.about_me{
+    padding: 132px 0px;
+}
+.about_me .ui-accordion .ui-accordion-header {
+    background-color: transparent;
+    padding: 15px 35px;
+    border: solid black 1px;
+    border-radius: 12px;
+    color: black;
+    font-size: large;
+}
+.ui-accordion .ui-accordion-content {
+    background: #FFEBD8;
+    border-radius: 0 0 12px 12px;
+    border: solid black 1px;
+    border-top: none;
+    font-size: large;
+    padding: 15px 35px;
+}
+.about_me .ui-accordion .ui-accordion-header.ui-state-active{
+    background: #FFEBD8;
+    border-bottom: none;
+    border-radius: 12px 12px 0 0;
+    font-size: large;
+}
+.ui-icon {
+    width: 17px;
+    height: 10px;
+    position: absolute;
+    top: 25px;
+    right: 35px;
+}
+.ui-state-active .ui-icon, .ui-button:active .ui-icon {
+    background-image: url("..//Images/arrow.svg");
+    transform: rotate(180deg);
+}
+.ui-icon, .ui-widget-content .ui-icon {
+    background-image: url("..//Images/arrow.svg");
+}
+.ui-icon-triangle-1-s {
+    background-position: unset;
+}
+.ui-icon-triangle-1-e {
+    background-position: unset;
+}
+.about_design{
+    p{
+        margin-bottom: 15px;
+    }
+}
